@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/markis/dedupe-strings-plugin.git"
+    "url": "git+ssh://git@github.com/markis/dedupe-string-plugin.git"
   },
   "keywords": [
     "deduplication",
@@ -27,9 +27,9 @@
   "author": "Markis Taylor <m@rkis.cc>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/markis/dedupe-strings-plugin/issues"
+    "url": "https://github.com/markis/dedupe-string-plugin/issues"
   },
-  "homepage": "https://github.com/markis/dedupe-strings-plugin#readme",
+  "homepage": "https://github.com/markis/dedupe-string-plugin#readme",
   "devDependencies": {
     "@types/webpack": "^2.2.11",
     "@types/webpack-sources": "^0.1.1",

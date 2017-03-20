@@ -4,7 +4,7 @@
 
 Dedupe-String-Plugin is a plugin for webpack that is optimized to work with gzip and remove duplicate strings that the gzip compression algorithm is not going to be able to dedupe.
 
-##### Before strip-whitespace:
+##### Before dedupe-string-plugin:
 ``` javascript
 function thing() {
   React.createElement('div');
@@ -13,7 +13,7 @@ function thing() {
 }
 ```
 
-##### After strip-whitespace:
+##### After dedupe-string-plugin:
 ``` javascript
 function thing() {
   const e = 'div';
