@@ -25,8 +25,6 @@ function thing() {
 
 ##### Webpack usage
 
-Put this plugin before your minification plugins (ex. uglify-js)
-
 ``` javascript
 var DedupeString = require('dedupe-string-plugin');
 
