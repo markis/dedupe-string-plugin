@@ -1,6 +1,6 @@
 {
   "name": "dedupe-string-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Deduplicate strings in javascript assets",
   "main": "index.js",
   "scripts": {
