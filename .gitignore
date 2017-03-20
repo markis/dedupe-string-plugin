@@ -1,0 +1,9 @@
+built/
+node_modules/
+tmp/
+.idea/
+.vscode/
+/index.js
+/test.js
+/test-setup/output.index.js
+/test-setup/output.index.js.map

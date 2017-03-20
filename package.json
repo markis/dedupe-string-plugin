@@ -1,0 +1,48 @@
+{
+  "name": "dedupe-string-plugin",
+  "version": "0.0.0",
+  "description": "Deduplicate strings in javascript assets",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "in-publish && npm test && npm run build || not-in-publish ",
+    "lint": "tslint -c tslint.json ./src/**/*.ts",
+    "test": "npm run lint && npm run build && npm run test:unit && npm run test:webpack",
+    "test:unit": "rollup -c -o test.js -i test/index.ts && node test.js",
+    "test:webpack": "cd test-setup && webpack",
+    "build": "npm run build:index",
+    "build:index": "rollup -c -o index.js -i src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/markis/dedupe-strings-plugin.git"
+  },
+  "keywords": [
+    "deduplication",
+    "strings",
+    "dedupe-strings",
+    "minification",
+    "webpack",
+    "plugin"
+  ],
+  "author": "Markis Taylor <m@rkis.cc>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markis/dedupe-strings-plugin/issues"
+  },
+  "homepage": "https://github.com/markis/dedupe-strings-plugin#readme",
+  "devDependencies": {
+    "@types/webpack": "^2.2.11",
+    "@types/webpack-sources": "^0.1.1",
+    "de-dupe": "0.0.12",
+    "in-publish": "^2.0.0",
+    "rollup": "^0.41.5",
+    "rollup-plugin-typescript": "^0.8.1",
+    "tslint": "^4.5.1",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "de-dupe": "0.0.12",
+    "webpack-sources": "^0.2.0"
+  }
+}
