@@ -33,7 +33,6 @@
   "devDependencies": {
     "@types/webpack": "^2.2.11",
     "@types/webpack-sources": "^0.1.1",
-    "de-dupe": "0.0.12",
     "in-publish": "^2.0.0",
     "rollup": "^0.41.5",
     "rollup-plugin-typescript": "^0.8.1",
