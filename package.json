@@ -36,7 +36,7 @@
     "in-publish": "^2.0.0",
     "rollup": "^0.41.5",
     "rollup-plugin-typescript": "^0.8.1",
-    "tslint": "^4.5.1",
+    "tslint": "^5.0.0",
     "typescript": "^2.2.1",
     "webpack": "^2.2.1"
   },
