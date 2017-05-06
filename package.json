@@ -36,12 +36,12 @@
     "in-publish": "^2.0.0",
     "rollup": "^0.41.5",
     "rollup-plugin-typescript": "^0.8.1",
-    "tslint": "^4.5.1",
+    "tslint": "^5.2.0",
     "typescript": "^2.2.1",
     "webpack": "^2.2.1"
   },
   "dependencies": {
-    "de-dupe": "0.0.12",
+    "de-dupe": "0.0.14",
     "webpack-sources": "^0.2.0"
   }
 }
