@@ -41,7 +41,7 @@
     "webpack": "^2.2.1"
   },
   "dependencies": {
-    "de-dupe": "0.0.12",
+    "de-dupe": "0.0.14",
     "webpack-sources": "^0.2.0"
   }
 }
