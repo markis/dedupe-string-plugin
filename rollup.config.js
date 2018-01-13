@@ -1,11 +1,12 @@
 var typescript = require('rollup-plugin-typescript');
 
 module.exports = {
-  entry: './src/index.ts',
-  dest: 'index.js',
-  format: 'cjs',
-  moduleId: 'de-dupe',
-  moduleName: 'dedupe',
+  input: './src/index.ts',
+  output: {
+    file: 'index.js',
+    name: 'dedupe',
+    format: 'cjs',
+  },
   external: [
     'assert',
     'de-dupe',
