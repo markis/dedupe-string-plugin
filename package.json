@@ -31,17 +31,17 @@
   },
   "homepage": "https://github.com/markis/dedupe-string-plugin#readme",
   "devDependencies": {
-    "@types/webpack": "^3.0.0",
-    "@types/webpack-sources": "^0.1.1",
-    "in-publish": "^2.0.0",
-    "rollup": "^0.45.2",
-    "rollup-plugin-typescript": "^0.8.1",
-    "tslint": "^5.2.0",
-    "typescript": "^2.2.1",
-    "webpack": "^3.0.0"
+    "@types/webpack": "3.8.2",
+    "@types/webpack-sources": "0.1.4",
+    "in-publish": "2.0.0",
+    "rollup": "0.54.0",
+    "rollup-plugin-typescript": "0.8.1",
+    "tslint": "5.9.1",
+    "typescript": "2.6.2",
+    "webpack": "3.10.0"
   },
   "dependencies": {
-    "de-dupe": "0.0.14",
-    "webpack-sources": "^1.0.0"
+    "de-dupe": "0.0.15",
+    "webpack-sources": "1.1.0"
   }
 }
