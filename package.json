@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/markis/dedupe-string-plugin#readme",
   "devDependencies": {
-    "@types/webpack": "3.8.2",
+    "@types/webpack": "4.4.1",
     "@types/webpack-sources": "0.1.4",
     "in-publish": "2.0.0",
     "rollup": "0.54.0",
