@@ -35,7 +35,7 @@
     "@types/webpack-sources": "0.1.4",
     "in-publish": "2.0.0",
     "rollup": "0.54.0",
-    "rollup-plugin-typescript": "0.8.1",
+    "rollup-plugin-typescript": "1.0.0",
     "tslint": "5.9.1",
     "typescript": "2.6.2",
     "webpack": "3.10.0"
