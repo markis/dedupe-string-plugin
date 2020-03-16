@@ -525,11 +525,12 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
 
-de-dupe@0.0.15:
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/de-dupe/-/de-dupe-0.0.15.tgz#67d2af24534cc104e5d5ca47f05c819736092839"
+de-dupe@^1.1.0:
+  version "1.1.12"
+  resolved "https://registry.yarnpkg.com/de-dupe/-/de-dupe-1.1.12.tgz#25accb0578d5699d9ea13e426830c9e95e09fee8"
+  integrity sha512-obzmG4HV7aKjjLHI+b+Orklblgfiavh7ibGyJdgmcjkUO9brZmW2oLx4hwvGYX0dxdBWO0nJtXAnPO2fBNvmCA==
   dependencies:
-    typescript "2.6.2"
+    typescript "3.6.4"
 
 debug@^2.2.0:
   version "2.6.9"
@@ -990,9 +991,10 @@ ieee754@^1.1.4:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
 
-in-publish@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/in-publish/-/in-publish-2.0.0.tgz#e20ff5e3a2afc2690320b6dc552682a9c7fadf51"
+in-publish@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/in-publish/-/in-publish-2.0.1.tgz#948b1a535c8030561cea522f73f78f4be357e00c"
+  integrity sha512-oDM0kUSNFC31ShNxHKUyfZKy8ZeXZBWMjMdZHKLOk13uvT27VTL/QzRGfRUcevJhpkZAvlhPYuXkF7eNWrtyxQ==
 
 indexof@0.0.1:
   version "0.0.1"
@@ -2035,6 +2037,11 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
 typescript@2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
+
+typescript@3.6.4:
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.6.4.tgz#b18752bb3792bc1a0281335f7f6ebf1bbfc5b91d"
+  integrity sha512-unoCll1+l+YK4i4F8f22TaNVPRHcD9PA3yCuZ8g5e0qGqlVlJ/8FSateOLLSagn+Yg5+ZwuPkL8LFUc0Jcvksg==
 
 typescript@^1.8.9:
   version "1.8.10"
