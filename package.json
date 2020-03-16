@@ -33,7 +33,7 @@
   "devDependencies": {
     "@types/webpack": "3.8.2",
     "@types/webpack-sources": "0.1.4",
-    "in-publish": "2.0.0",
+    "in-publish": "2.0.1",
     "rollup": "0.54.0",
     "rollup-plugin-typescript": "0.8.1",
     "tslint": "5.9.1",
