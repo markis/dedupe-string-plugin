@@ -525,11 +525,12 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
 
-de-dupe@0.0.15:
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/de-dupe/-/de-dupe-0.0.15.tgz#67d2af24534cc104e5d5ca47f05c819736092839"
+de-dupe@^1.1.0:
+  version "1.1.12"
+  resolved "https://registry.yarnpkg.com/de-dupe/-/de-dupe-1.1.12.tgz#25accb0578d5699d9ea13e426830c9e95e09fee8"
+  integrity sha512-obzmG4HV7aKjjLHI+b+Orklblgfiavh7ibGyJdgmcjkUO9brZmW2oLx4hwvGYX0dxdBWO0nJtXAnPO2fBNvmCA==
   dependencies:
-    typescript "2.6.2"
+    typescript "3.6.4"
 
 debug@^2.2.0:
   version "2.6.9"
@@ -2036,6 +2037,11 @@ typescript@2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
 
+typescript@3.6.4:
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.6.4.tgz#b18752bb3792bc1a0281335f7f6ebf1bbfc5b91d"
+  integrity sha512-unoCll1+l+YK4i4F8f22TaNVPRHcD9PA3yCuZ8g5e0qGqlVlJ/8FSateOLLSagn+Yg5+ZwuPkL8LFUc0Jcvksg==
+
 typescript@^1.8.9:
   version "1.8.10"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-1.8.10.tgz#b475d6e0dff0bf50f296e5ca6ef9fbb5c7320f1e"
@@ -2115,7 +2121,15 @@ watchpack@^1.4.0:
     chokidar "^1.7.0"
     graceful-fs "^4.1.2"
 
-webpack-sources@1.1.0, webpack-sources@^1.0.1:
+webpack-sources@1.4.3:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-1.4.3.tgz#eedd8ec0b928fbf1cbfe994e22d2d890f330a933"
+  integrity sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ==
+  dependencies:
+    source-list-map "^2.0.0"
+    source-map "~0.6.1"
+
+webpack-sources@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-1.1.0.tgz#a101ebae59d6507354d71d8013950a3a8b7a5a54"
   dependencies:
